@@ -1,10 +1,12 @@
 from allat import Allat
-import random as r
-import os
-
+from emlos import Emlos
 
 allat = Allat("Bodri", "kutya", 5, "kert", "közepes")
 allat2 = Allat("Cirmi", "macska", 2, "ház", "közepes")
 
 print(allat)
 print(allat2)
+
+emlos = Emlos("Morzsi", "kutya", 5, "szavannkert", "barna")
+
+print(emlos)
