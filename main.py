@@ -1,4 +1,4 @@
-from allat import Allat
+from allat import Allat, Madar
 from emlos import Emlos, Macska, Kutya
 
 allat = Allat("Bodri", "kutya", 5, "kert", "közepes")
@@ -21,3 +21,10 @@ print(macska1)
 
 kutya1 = Kutya("Rex", 6, "kert", "fekete")
 print(kutya1)
+kutya1.ugat()
+
+print("\nMadár\n")
+
+madar1 = Madar("Csipike")
+print(madar1)
+madar1.csiripel()
