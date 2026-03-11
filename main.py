@@ -1,5 +1,5 @@
-from allat import Allat, Madar
-from emlos import Emlos, Macska, Kutya
+from allat import *
+from emlos import *
 
 allat = Allat("Bodri", "kutya", 5, "kert", "közepes")
 allat2 = Allat("Cirmi", "macska", 2, "ház", "közepes")
@@ -28,3 +28,13 @@ print("\nMadár\n")
 madar1 = Madar("Csipike")
 print(madar1)
 madar1.csiripel()
+
+print("\nKétéltű, Hüllő\n")
+
+keteltu = Keteltu("Zsolti a béka")
+print(keteltu)
+keteltu.brekeg()
+
+hullo = Hullo("Nagini")
+print(hullo)
+hullo.napozik()
