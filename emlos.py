@@ -6,4 +6,5 @@ class Emlos(Allat):
         self.szorzet_szine = szorzet_szine
 
     def __str__(self):
-        return f"{self.nev} ({self.faj}), {self.eletkor} éves, élőhelye: {self.elohely}, mérete: {self.meret}, szőrzete: {self.szorzet_szine}"
+        return super().__init__() + f", szőrzete: {self.szorzet_szine}"
+        # return f"{self.nev} ({self.faj}), {self.eletkor} éves, élőhelye: {self.elohely}, mérete: {self.meret}, szőrzete: {self.szorzet_szine}"
