@@ -7,6 +7,7 @@ allat2 = Allat("Cirmi", "macska", 2, "ház", "közepes")
 print(allat)
 print(allat2)
 
-emlos = Emlos("Morzsi", "kutya", 5, "szavannkert", "barna")
+emlos = Emlos("Morzsi", "kutya", 5, "kert", "barna")
+emlos2 = Emlos("Cirma", "macska", 3, "lakás", "fekete")
 
 print(emlos)
